@@ -15,11 +15,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         
-        /*
-            1- tabBarController holding navigationControllers
-            2- navigationControllers holding viewControllers
-    */
-        
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
@@ -28,29 +23,27 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.makeKeyAndVisible()
     }
     
-    //TODO: make a curryed function
-    func createSearchNC() -> UINavigationController {
-        let searchVC = SearchVC()
-        searchVC.title = "Search"
-        searchVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0)
-        
-        return UINavigationController(rootViewController: searchVC)
-    }
-    
-    func createFavoritesNC() -> UINavigationController {
-        let favoritesVC = FavoritesListVC()
-        favoritesVC.title = "Favorites"
-        favoritesVC.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 1)
-        
-        return UINavigationController(rootViewController: favoritesVC)
-    }
-    
+    // UITabBarController holding navigationControllers
     func createTabbar() -> UITabBarController {
+        
+        let search = createNavigationController(controller: SearchVC(), title: "Search", icon: .search, position: 0)
+        let favorites = createNavigationController(controller: FavoritesListVC(), title: "Favorites", icon: .favorites, position: 1)
+        
         let tabbar = UITabBarController()
         UITabBar.appearance().tintColor = .systemGreen
-        tabbar.viewControllers = [ createSearchNC(), createFavoritesNC()]
+        tabbar.viewControllers = [ search, favorites]
         
         return tabbar
+    }
+    
+    // UINavigationController holding viewControllers
+    func createNavigationController(controller: UIViewController, title: String, icon: UITabBarItem.SystemItem, position: Int)-> UINavigationController {
+        
+        let vc = controller
+        vc.title = title
+        vc.tabBarItem = UITabBarItem(tabBarSystemItem: icon, tag: position)
+        
+        return UINavigationController(rootViewController: vc)
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
