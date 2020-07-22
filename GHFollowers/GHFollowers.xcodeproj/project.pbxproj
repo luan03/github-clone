@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A4B67E324C7FCC500BAD86A /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B67E224C7FCC500BAD86A /* FollowerListVC.swift */; };
 		0AAA225024BE965800023B66 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAA224F24BE965800023B66 /* GFButton.swift */; };
 		0AAA225224BE9AD000023B66 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAA225124BE9AD000023B66 /* GFTextField.swift */; };
 		0ADEF83E24BA5F5D00F8F46B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADEF83D24BA5F5D00F8F46B /* AppDelegate.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A4B67E224C7FCC500BAD86A /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		0AAA224F24BE965800023B66 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		0AAA225124BE9AD000023B66 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		0ADEF83A24BA5F5D00F8F46B /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -109,6 +111,7 @@
 				0ADEF84824BA5F6000F8F46B /* LaunchScreen.storyboard */,
 				0ADEF84B24BA5F6000F8F46B /* Info.plist */,
 				0ADEF86D24BA687200F8F46B /* SearchVC.swift */,
+				0A4B67E224C7FCC500BAD86A /* FollowerListVC.swift */,
 				0ADEF86F24BA68D900F8F46B /* FavoritesListVC.swift */,
 				0AAA224F24BE965800023B66 /* GFButton.swift */,
 				0AAA225124BE9AD000023B66 /* GFTextField.swift */,
@@ -268,6 +271,7 @@
 				0ADEF87024BA68D900F8F46B /* FavoritesListVC.swift in Sources */,
 				0AAA225024BE965800023B66 /* GFButton.swift in Sources */,
 				0ADEF86E24BA687200F8F46B /* SearchVC.swift in Sources */,
+				0A4B67E324C7FCC500BAD86A /* FollowerListVC.swift in Sources */,
 				0ADEF83E24BA5F5D00F8F46B /* AppDelegate.swift in Sources */,
 				0ADEF84024BA5F5D00F8F46B /* SceneDelegate.swift in Sources */,
 			);
