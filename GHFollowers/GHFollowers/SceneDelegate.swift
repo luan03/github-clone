@@ -21,6 +21,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window?.windowScene = windowScene
         window?.rootViewController = createTabbar()
         window?.makeKeyAndVisible()
+        
+        configureNavigationBar()
     }
     
     // UITabBarController holding navigationControllers
@@ -44,6 +46,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         vc.tabBarItem = UITabBarItem(tabBarSystemItem: icon, tag: position)
         
         return UINavigationController(rootViewController: vc)
+    }
+    
+    func configureNavigationBar() {
+        UINavigationBar.appearance().tintColor = .systemGreen
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
