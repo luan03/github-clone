@@ -22,6 +22,7 @@ class SearchVC: UIViewController {
         configureLogoImageView()
         configureTextField()
         configureCallToActionButton()
+        createDismissKeyboardTapGesture()
     }
     
     // this is called every time that the view appear
@@ -30,6 +31,11 @@ class SearchVC: UIViewController {
         
         // hide navigation bar
         navigationController?.isNavigationBarHidden = true
+    }
+    
+    func createDismissKeyboardTapGesture() {
+        let tap = UITapGestureRecognizer(target: self, action: #selector(UIView.endEditing))
+        view.addGestureRecognizer(tap)
     }
     
     func configureLogoImageView() {
@@ -47,6 +53,8 @@ class SearchVC: UIViewController {
     
     func configureTextField() {
         view.addSubview(userNameTextField)
+        
+        userNameTextField.delegate = self
         
         NSLayoutConstraint.activate([
             userNameTextField.topAnchor.constraint(equalTo: logoImageView.bottomAnchor, constant: 48),
@@ -66,5 +74,11 @@ class SearchVC: UIViewController {
             callToActionButton.heightAnchor.constraint(equalToConstant: 50)
         ])
     }
-    
+}
+
+extension SearchVC: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        print("go go go")
+        return true
+    }
 }
