@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A3A80E324DB006700B9860B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A3A80E224DB006700B9860B /* Default-568h@2x.png */; };
 		0A4B67E324C7FCC500BAD86A /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B67E224C7FCC500BAD86A /* FollowerListVC.swift */; };
 		0AAA225024BE965800023B66 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAA224F24BE965800023B66 /* GFButton.swift */; };
 		0AAA225224BE9AD000023B66 /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAA225124BE9AD000023B66 /* GFTextField.swift */; };
@@ -22,6 +23,9 @@
 		0ADEF86024BA5F6100F8F46B /* GHFollowersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADEF85F24BA5F6100F8F46B /* GHFollowersUITests.swift */; };
 		0ADEF86E24BA687200F8F46B /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADEF86D24BA687200F8F46B /* SearchVC.swift */; };
 		0ADEF87024BA68D900F8F46B /* FavoritesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ADEF86F24BA68D900F8F46B /* FavoritesListVC.swift */; };
+		57CA957018007EDA3E5609CB /* Pods_GHFollowers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5B98E23124881A54DA94BE /* Pods_GHFollowers.framework */; };
+		91F6DB97519765BD92FB8378 /* Pods_GHFollowersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FBD7018C463148151943BB /* Pods_GHFollowersTests.framework */; };
+		E9B4160A936FE0047BA5F406 /* Pods_GHFollowers_GHFollowersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E211F0F5B6ED18D44056F0C /* Pods_GHFollowers_GHFollowersUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0415CBE4813B55DFA8D5963E /* Pods-GHFollowers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHFollowers.release.xcconfig"; path = "Target Support Files/Pods-GHFollowers/Pods-GHFollowers.release.xcconfig"; sourceTree = "<group>"; };
+		0A3A80E224DB006700B9860B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0A4B67E224C7FCC500BAD86A /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		0AAA224F24BE965800023B66 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		0AAA225124BE9AD000023B66 /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
@@ -63,6 +69,14 @@
 		0ADEF86124BA5F6100F8F46B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0ADEF86D24BA687200F8F46B /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		0ADEF86F24BA68D900F8F46B /* FavoritesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListVC.swift; sourceTree = "<group>"; };
+		11B59EF3C317D9B04B52E675 /* Pods-GHFollowersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHFollowersTests.debug.xcconfig"; path = "Target Support Files/Pods-GHFollowersTests/Pods-GHFollowersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E211F0F5B6ED18D44056F0C /* Pods_GHFollowers_GHFollowersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GHFollowers_GHFollowersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BB6AE552DFAE1C048C8D19 /* Pods-GHFollowers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHFollowers.debug.xcconfig"; path = "Target Support Files/Pods-GHFollowers/Pods-GHFollowers.debug.xcconfig"; sourceTree = "<group>"; };
+		4D5B98E23124881A54DA94BE /* Pods_GHFollowers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GHFollowers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		504AE6EC914A6E5951C30FF7 /* Pods-GHFollowers-GHFollowersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHFollowers-GHFollowersUITests.debug.xcconfig"; path = "Target Support Files/Pods-GHFollowers-GHFollowersUITests/Pods-GHFollowers-GHFollowersUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		80DA59BF10C91A6F58757537 /* Pods-GHFollowersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHFollowersTests.release.xcconfig"; path = "Target Support Files/Pods-GHFollowersTests/Pods-GHFollowersTests.release.xcconfig"; sourceTree = "<group>"; };
+		B2FBD7018C463148151943BB /* Pods_GHFollowersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GHFollowersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E095EFF4BFB3016523090D80 /* Pods-GHFollowers-GHFollowersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GHFollowers-GHFollowersUITests.release.xcconfig"; path = "Target Support Files/Pods-GHFollowers-GHFollowersUITests/Pods-GHFollowers-GHFollowersUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57CA957018007EDA3E5609CB /* Pods_GHFollowers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91F6DB97519765BD92FB8378 /* Pods_GHFollowersTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9B4160A936FE0047BA5F406 /* Pods_GHFollowers_GHFollowersUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,10 +110,13 @@
 		0ADEF83124BA5F5D00F8F46B = {
 			isa = PBXGroup;
 			children = (
+				0A3A80E224DB006700B9860B /* Default-568h@2x.png */,
 				0ADEF83C24BA5F5D00F8F46B /* GHFollowers */,
 				0ADEF85324BA5F6100F8F46B /* GHFollowersTests */,
 				0ADEF85E24BA5F6100F8F46B /* GHFollowersUITests */,
 				0ADEF83B24BA5F5D00F8F46B /* Products */,
+				5EFE536583FC4BF4356950CE /* Pods */,
+				2FE60508CE24F0CA66065333 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,6 +169,29 @@
 			path = GHFollowersUITests;
 			sourceTree = "<group>";
 		};
+		2FE60508CE24F0CA66065333 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D5B98E23124881A54DA94BE /* Pods_GHFollowers.framework */,
+				2E211F0F5B6ED18D44056F0C /* Pods_GHFollowers_GHFollowersUITests.framework */,
+				B2FBD7018C463148151943BB /* Pods_GHFollowersTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EFE536583FC4BF4356950CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45BB6AE552DFAE1C048C8D19 /* Pods-GHFollowers.debug.xcconfig */,
+				0415CBE4813B55DFA8D5963E /* Pods-GHFollowers.release.xcconfig */,
+				504AE6EC914A6E5951C30FF7 /* Pods-GHFollowers-GHFollowersUITests.debug.xcconfig */,
+				E095EFF4BFB3016523090D80 /* Pods-GHFollowers-GHFollowersUITests.release.xcconfig */,
+				11B59EF3C317D9B04B52E675 /* Pods-GHFollowersTests.debug.xcconfig */,
+				80DA59BF10C91A6F58757537 /* Pods-GHFollowersTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0ADEF86424BA5F6100F8F46B /* Build configuration list for PBXNativeTarget "GHFollowers" */;
 			buildPhases = (
+				1A6731616DAD9FB639980176 /* [CP] Check Pods Manifest.lock */,
 				0ADEF83624BA5F5D00F8F46B /* Sources */,
 				0ADEF83724BA5F5D00F8F46B /* Frameworks */,
 				0ADEF83824BA5F5D00F8F46B /* Resources */,
@@ -173,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0ADEF86724BA5F6100F8F46B /* Build configuration list for PBXNativeTarget "GHFollowersTests" */;
 			buildPhases = (
+				26B0448149A6D4DDED4DCD94 /* [CP] Check Pods Manifest.lock */,
 				0ADEF84C24BA5F6100F8F46B /* Sources */,
 				0ADEF84D24BA5F6100F8F46B /* Frameworks */,
 				0ADEF84E24BA5F6100F8F46B /* Resources */,
@@ -191,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0ADEF86A24BA5F6100F8F46B /* Build configuration list for PBXNativeTarget "GHFollowersUITests" */;
 			buildPhases = (
+				85EF6132580B473F5198FBC9 /* [CP] Check Pods Manifest.lock */,
 				0ADEF85724BA5F6100F8F46B /* Sources */,
 				0ADEF85824BA5F6100F8F46B /* Frameworks */,
 				0ADEF85924BA5F6100F8F46B /* Resources */,
@@ -255,6 +301,7 @@
 			files = (
 				0ADEF84A24BA5F6000F8F46B /* LaunchScreen.storyboard in Resources */,
 				0ADEF84724BA5F6000F8F46B /* Assets.xcassets in Resources */,
+				0A3A80E324DB006700B9860B /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +320,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A6731616DAD9FB639980176 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GHFollowers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26B0448149A6D4DDED4DCD94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GHFollowersTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85EF6132580B473F5198FBC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GHFollowers-GHFollowersUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0ADEF83624BA5F5D00F8F46B /* Sources */ = {
@@ -452,6 +568,7 @@
 		};
 		0ADEF86524BA5F6100F8F46B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45BB6AE552DFAE1C048C8D19 /* Pods-GHFollowers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -469,6 +586,7 @@
 		};
 		0ADEF86624BA5F6100F8F46B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0415CBE4813B55DFA8D5963E /* Pods-GHFollowers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +604,7 @@
 		};
 		0ADEF86824BA5F6100F8F46B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11B59EF3C317D9B04B52E675 /* Pods-GHFollowersTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -507,6 +626,7 @@
 		};
 		0ADEF86924BA5F6100F8F46B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80DA59BF10C91A6F58757537 /* Pods-GHFollowersTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +648,7 @@
 		};
 		0ADEF86B24BA5F6100F8F46B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 504AE6EC914A6E5951C30FF7 /* Pods-GHFollowers-GHFollowersUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -547,6 +668,7 @@
 		};
 		0ADEF86C24BA5F6100F8F46B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E095EFF4BFB3016523090D80 /* Pods-GHFollowers-GHFollowersUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
