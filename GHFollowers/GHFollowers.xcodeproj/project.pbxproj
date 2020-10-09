@@ -11,6 +11,8 @@
 		0A06863A252D0A5100F70298 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A068639252D0A5100F70298 /* User.swift */; };
 		0A0E3468252E18FA00BFE21D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0E3467252E18FA00BFE21D /* NetworkManager.swift */; };
 		0A0E346B252E296100BFE21D /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0E346A252E296100BFE21D /* ErrorMessage.swift */; };
+		0A0E346E252FF22200BFE21D /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0E346D252FF22200BFE21D /* FollowerCell.swift */; };
+		0A0E3470252FF37E00BFE21D /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0E346F252FF37E00BFE21D /* GFAvatarImageView.swift */; };
 		0A3A80E324DB006700B9860B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A3A80E224DB006700B9860B /* Default-568h@2x.png */; };
 		0A4B67E324C7FCC500BAD86A /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4B67E224C7FCC500BAD86A /* FollowerListVC.swift */; };
 		0AAA225024BE965800023B66 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AAA224F24BE965800023B66 /* GFButton.swift */; };
@@ -55,6 +57,8 @@
 		0A068639252D0A5100F70298 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		0A0E3467252E18FA00BFE21D /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		0A0E346A252E296100BFE21D /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		0A0E346D252FF22200BFE21D /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
+		0A0E346F252FF37E00BFE21D /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		0A3A80E224DB006700B9860B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0A4B67E224C7FCC500BAD86A /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		0AAA224F24BE965800023B66 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
@@ -140,6 +144,14 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		0A0E346C252F5E0200BFE21D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0A0E346D252FF22200BFE21D /* FollowerCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		0ADEF83124BA5F5D00F8F46B = {
 			isa = PBXGroup;
 			children = (
@@ -209,11 +221,13 @@
 		0AF4031324F2044F00422E74 /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				0A0E346C252F5E0200BFE21D /* Cells */,
 				0AAA224F24BE965800023B66 /* GFButton.swift */,
 				0AAA225124BE9AD000023B66 /* GFTextField.swift */,
 				0ABDCF0224CD17D500078C1C /* GFTextLabel.swift */,
 				0ABDCF0624CD1B4900078C1C /* GFAlertVC.swift */,
 				0ABDCF0424CD19F400078C1C /* GFBodyLabel.swift */,
+				0A0E346F252FF37E00BFE21D /* GFAvatarImageView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -468,8 +482,10 @@
 				0ADEF87024BA68D900F8F46B /* FavoritesListVC.swift in Sources */,
 				0AAA225024BE965800023B66 /* GFButton.swift in Sources */,
 				0ABDCF0924CD291200078C1C /* UIViewController+Ext.swift in Sources */,
+				0A0E3470252FF37E00BFE21D /* GFAvatarImageView.swift in Sources */,
 				0ADEF86E24BA687200F8F46B /* SearchVC.swift in Sources */,
 				0ABDCF0724CD1B4900078C1C /* GFAlertVC.swift in Sources */,
+				0A0E346E252FF22200BFE21D /* FollowerCell.swift in Sources */,
 				0A0E346B252E296100BFE21D /* ErrorMessage.swift in Sources */,
 				0ABDCF0524CD19F400078C1C /* GFBodyLabel.swift in Sources */,
 				0A068638252D07D400F70298 /* Follower.swift in Sources */,
