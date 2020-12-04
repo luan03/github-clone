@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Follower: Codable {
+struct Follower: Codable, Hashable {
     // the properties should match the object from the api
     // snake case is converted automatically to camel case
     // do not worry crazy edge cases
